@@ -3,6 +3,11 @@
 
 * {
   font-family: "Open Sans", sans-serif;
+
+  --colour-1: #5F6F52;
+  --colour-2: #A9B388;
+  --colour-3: #FEFAE0;
+  --colour-4: #B99470;
 }
 
 h1 {
