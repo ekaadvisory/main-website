@@ -63,19 +63,20 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2rem 0 4rem 0;
-
   flex-wrap: wrap;
 }
 
 #section-2-header {
-  color: var(--colour-1);
+  /* color: var(--colour-1); */
   font-size: 3rem;
+  font-weight: 600;
   margin-bottom: 2rem;
-  text-shadow: 1px 1px 1px #000;
+  /* text-shadow: 1px 1px 1px #000; */
 }
 
 #section-2-content {
   display: flex;
+  gap: 2rem;
 }
 
 #section-2-image {
@@ -83,7 +84,8 @@ body {
   max-width: 400px;
   height: auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 0.2rem;
+  border-radius: 150% 150% 150% 150% / 40% 40% 40% 40%;
+  
 }
 
 @media (max-width: 1000px) {
@@ -102,6 +104,8 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: rgba(220, 220, 220, 1);
   border-radius: 0.2rem;
+
+  text-align: center;
 }
 
 #logo {
@@ -142,20 +146,29 @@ footer {
   font-size: 1.5rem;
 }
 
-#contact-list a {
-  color: var(--colour-3);
-  margin-left: auto;
+.list-left-item {
+  width: 6rem;
 }
 
-#contact-list a:hover {
+.list-right-item {
+  color: var(--colour-3);
+}
+
+.list-right-item:hover {
   color: var(--colour-2);
 }
 
-#contact-list a:active {
+.list-right-item:active {
   color: var(--colour-4);
 }
 
 #contact-list li {
   display: flex;
-  gap: 1.5rem;
+  gap: 5px;
+}
+
+#linkedin-logo {
+  height: 50px;
+  display: block;
+  margin: 0 auto;
 }
