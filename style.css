@@ -17,6 +17,15 @@
 
 body {
   width: 100vw;
+
+  background-color: var(--colour-3);
+}
+
+#section-1 {
+  background-image: url("images/mbingu-1.JPG");
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  height: 700px;
 }
 
 #logo {
