@@ -82,8 +82,8 @@ body {
   width: 100%;
   max-width: 400px;
   height: auto;
-  border-radius: 0.2rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.2rem;
 }
 
 @media (max-width: 1000px) {
@@ -99,9 +99,9 @@ body {
   font-size: 1.5rem;
 
   padding: 1rem 3rem;
-  border-radius: 0.2rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: rgba(220, 220, 220, 1);
+  border-radius: 0.2rem;
 }
 
 #logo {
@@ -144,6 +144,7 @@ footer {
 
 #contact-list a {
   color: var(--colour-3);
+  margin-left: auto;
 }
 
 #contact-list a:hover {
@@ -152,4 +153,9 @@ footer {
 
 #contact-list a:active {
   color: var(--colour-4);
+}
+
+#contact-list li {
+  display: flex;
+  gap: 1.5rem;
 }
